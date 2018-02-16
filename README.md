@@ -28,4 +28,4 @@ This project adheres to WordPress PHP and CSS coding standards, and [Saas Guidel
 
 ## Theme Check
 
-This theme passed all tests with extraneous errors. It has a score of 94 on [Theme Check](http://themecheck.org/)
+This theme passed all tests with extraneous errors. It has a score of 93 on [Theme Check](http://themecheck.org/)
