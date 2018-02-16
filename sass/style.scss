@@ -1,0 +1,104 @@
+/*
+Theme Name: wpfoundation
+Theme URI: https://josephgodwinkimani.github.io/works.html
+Template: JointsWP - CSS
+Author: Joseph Godwin Kimani
+Author URI: https://josephgodwinkimani.github.io/
+Description: JointsWP Advanced Child Theme
+Tags: Sass
+Version: 5.0.1518604249
+Updated: 2018-02-14 10:30:49
+
+*/
+
+// Color
+$dark-gray: #8a8a8a;
+$light-gray: #e6e6e6;
+$primary: #1779ba;
+$white-button-color: #ffffff; 
+$background-primary-color: #2c3840;
+$white: #fefefe;
+$hover-color: #4ec6cd;
+$negro-button-color: #000000;
+
+.title-bar {
+  background: $background-primary-color !important;
+  color: $white !important;
+}
+
+.top-bar {
+  background: $background-primary-color !important;
+  color: $white!important;
+  ul {
+    background: $background-primary-color !important;
+    color: $white !important;
+  }
+}
+
+.title-bar li {
+  background: $background-primary-color !important;
+}
+
+.top-bar {
+  li, ul li {
+    background: $background-primary-color !important;
+  }
+}
+
+.content {
+  margin: 40px 40px 40px 40px;
+}
+
+.footer {
+  background-color: $light-gray !important;
+  text-align: center;
+}
+
+.copyright {
+  background-color: $dark-gray !important;
+  text-align: center;
+  font-size: 0.9rem;
+  color: $background-primary-color !important;
+  padding: 20px;
+  a {
+    font-size: 0.9rem;
+    transition: all 0.5s ease;
+    &:hover {
+      color: $hover-color !important;
+      transition: all 0.5s ease;
+    }
+  }
+}
+
+#sidebar1 {
+  padding: 80px;
+}
+
+.woocommerce-tabs {
+  #tab-description h2, #tab-additional_information h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.comment-respond h3 {
+  font-size: 1.5rem;
+}
+
+.single-product .product .single_add_to_cart_button.button {
+  background-color: $primary !important;
+  color: $white-button-color !important;
+}
+
+.woocommerce {
+  .product .add_to_cart_button.button {
+    background-color: $primary !important;
+    color: $white-button-color !important;
+  }
+  #respond input#submit.alt:hover, a.button.alt:hover, button.button.alt:hover, input.button.alt:hover {
+    background-color: $negro-button-color !important;
+    color: $white-button-color !important;
+  }
+  .related.products h2, .upsells.products h2 {
+    font-size: 1.5rem;
+  }
+}
